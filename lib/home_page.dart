@@ -10,8 +10,28 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      
+    return Scaffold(
+      body: Center(
+        child: Row(
+          children: <Widget>[
+            MaterialButton(
+              onPressed: () {},
+              child: Text('Write'),
+              color: Colors.blue[200],
+            ),
+            MaterialButton(
+              onPressed: () {},
+              child: Text('Write'),
+              color: Colors.blue[200],
+            ),
+            MaterialButton(
+              onPressed: () {},
+              child: Text('Write'),
+              color: Colors.blue[200],
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
